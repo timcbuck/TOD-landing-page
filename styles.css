@@ -4,7 +4,7 @@ body {
     font-style: normal;
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: 0 auto;
 }
 
 ul {
@@ -22,13 +22,51 @@ li a {
 .header {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.main-content {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 50px 10% 50px 10%;
+
+}
+
+.main-content-text {
+    flex: 1;
+}
+
+.main-content-text h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main-content-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+
+.main-content-image {
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }
