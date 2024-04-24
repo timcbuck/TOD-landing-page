@@ -70,3 +70,38 @@ li a {
     align-items: center;
     flex: 1;
 }
+
+.random-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random-content h1 {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.grid-item {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    color: lightslategrey;
+    font-size: 14px;
+    text-align: center;
+}
+
+.grid-box {
+    border-style: solid;
+    border-radius: 12px;
+    width: 120px;
+    height: 120px;
+    border-color: #3882f6;
+}
